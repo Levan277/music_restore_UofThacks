@@ -35,12 +35,12 @@ class rainbowPianoApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              playSound(color: Colors.red, soundNum: 1),
-              playSound(color: Colors.blue,soundNum: 2),
+              playSound(color: Colors.purple, soundNum: 1),
+              playSound(color: Colors.green,soundNum: 2),
               playSound(color: Colors.pink,soundNum: 3),
-              playSound(color: Colors.purple,soundNum: 4),
-              playSound(color: Colors.lightGreen, soundNum:5),
-              playSound(color: Colors.yellow,soundNum: 6),
+              playSound(color: Colors.lightBlueAccent,soundNum: 4),
+              playSound(color: Colors.deepOrange, soundNum:5),
+              playSound(color: Colors.grey,soundNum: 6),
               playSound(color: Colors.brown, soundNum:7),
 
             ],
