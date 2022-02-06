@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
+ const IconData music_note = IconData(0xe415, fontFamily: 'MaterialIcons');
 void main() => runApp(rainbowPianoApp());
 
 class rainbowPianoApp extends StatelessWidget {
@@ -35,6 +36,7 @@ class rainbowPianoApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+               Icon(music_note),
               playSound(color: Colors.purple, soundNum: 1),
               playSound(color: Colors.green,soundNum: 2),
               playSound(color: Colors.pink,soundNum: 3),
